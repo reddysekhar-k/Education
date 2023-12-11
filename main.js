@@ -1,6 +1,7 @@
 $(document).ready(function () {
     $("#menu-btn").click(function (e) {
-        e.stopPropagation(); // Prevents the click event from reaching the document body
+        e.stopPropagation(); 
+        // Prevents the click event from reaching the document body
         $('nav .navigation ul').addClass('active');
     });
 
