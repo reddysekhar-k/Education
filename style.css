@@ -503,7 +503,9 @@ footer .copyright .pro-links i:hover{
 
 }
 #contact .getin{
-    width: 350px;
+    margin-top: 20px;
+    width: 400px;
+
 }
 
 #contact .getin h2{
@@ -512,11 +514,10 @@ footer .copyright .pro-links i:hover{
     font-weight: 800;
     margin-bottom: 16px;
     line-height: .8px;
+    margin-bottom: 30px;
 }
 #contact .getin p{
     color: #686875;
-    line-height: 20px;
-    padding-bottom: 25px;
     border: 1px solid #e5e4ed;
     margin-bottom: 35px;
 
@@ -526,7 +527,7 @@ footer .copyright .pro-links i:hover{
     font-size: 18px;
     line-height:15px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   
 }
 #contact .getin .getin-details div {
@@ -540,7 +541,8 @@ footer .copyright .pro-links i:hover{
 }
 #contact .getin .getin-details div p{
     font-size: 14px;
-    border-bottom: none;
+    width: 100%;
+    /* border-bottom: none; */
     line-height: 25px;
     margin-bottom: 15px;
 }
@@ -778,14 +780,19 @@ footer .copyright .pro-links i:hover{
         width: 100%;
     }
 
+    /* footer */
 
+    footer input{
+        width: 100%;
+        margin-bottom: 60px;
+    }
 
 }
 
 @media (max-width:376px) {
     footer input{
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
     }
     
 }
